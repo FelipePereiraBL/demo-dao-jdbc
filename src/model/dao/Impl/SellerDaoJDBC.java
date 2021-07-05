@@ -28,11 +28,8 @@ public class SellerDaoJDBC implements SellerDao
 	@Override
 	public void insert(Seller obj) 
 	{
-<<<<<<< HEAD
+
         PreparedStatement st=null;
-=======
-		PreparedStatement st=null;
->>>>>>> 6017670bd3f4a14e7ba9141d3f169abc2497bd1e
 		
 		try 
 		{
