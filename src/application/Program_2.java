@@ -15,6 +15,11 @@ public class Program_2 {
 		departmentDao.insert(department);
 		System.out.println("Inserção concluida");
 		
+		System.out.println("\n===TESTE 2:department update===");
+		department=departmentDao.findById(6);
+		department.setName("Pintura");
+		departmentDao.update(department);
+		System.out.println("Update conpleted");
 
 	}
 
