@@ -120,7 +120,7 @@ public class SellerDaoJDBC implements SellerDao
 			
 			st.setInt(1, id);
 			
-			 st.executeUpdate();
+		    st.executeUpdate();
 		}
 		catch (SQLException e) 
 		{
